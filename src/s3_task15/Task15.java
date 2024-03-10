@@ -11,4 +11,15 @@
 package s3_task15;
 
 public class Task15 {
+    public static void main(String[] args) throws Exception {
+        try{
+
+            while (true){
+                throw new FileNotFoundException();
+            }
+
+        }catch (FileNotFoundException e){
+
+        }
+    }
 }
